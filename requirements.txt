@@ -3,3 +3,4 @@ dask
 geopandas
 dask-geopandas
 pygeos
+matplotlib

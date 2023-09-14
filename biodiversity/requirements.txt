@@ -1,0 +1,4 @@
+numpy
+pandas>=1.1
+rasterio
+dask

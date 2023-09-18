@@ -24,6 +24,7 @@ This script extracts the biodiversity data and maps it on our hexagonal partitio
 ### world.csv
 This file contains the data about the neighboring hexagones of each heaxagon, labeled from 0 to 5 depending on the location of the neighbor, according to the following labeling. It is generated in the notebook extract_graph.ipynb. The process is quite data-heavy so we use a multiprocessing module (dask) to parallelize the computations.
 
+---
       0
     _____
  5 /     \ 1
@@ -31,6 +32,7 @@ This file contains the data about the neighboring hexagones of each heaxagon, la
   \       /
  4 \_____/ 2
       3
+---
 
 ### world_coord.csv
 This file contains the coordinates of the barycenter of each hexagon. It is generated in the notebook extract_graph.ipynb.

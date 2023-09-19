@@ -2,7 +2,7 @@
 
 This repo contains the basis for the data processing and structuration for running models on the birth of agriculture.
 
-## Data processoing code
+## Data processing code
 
 ### extract_graph.ipynb
 This notebook contains the data processing to extract neighboring nodes in the hexagonal partitionning of the world map.
@@ -18,6 +18,9 @@ This script extracts the weather data and maps it on our hexagonal partition of 
 
 ### data_to_graph2.py
 This script extracts the biodiversity data and maps it on our hexagonal partition of the world. It also generates some plots to visualize the data.
+
+### tif_files.ipynb
+This script processes the WorldClim 2.1 .tif files (temperature, precipitation, topography). It formats them in terms of [value, longitude, latitude] for future mapping on the hexagonal partition of the world. 
 
 ## Data generated for the models
 
